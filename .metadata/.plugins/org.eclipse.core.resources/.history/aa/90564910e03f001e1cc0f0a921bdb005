@@ -1,0 +1,10 @@
+package a24Comments;
+
+public class aSample {
+	
+	/*
+	 * Comment is a statement that will not be executed by compiler or interpreter. It can be used to
+	   provide information or explaination about the variable or method or class or any statement.
+	 */
+
+}

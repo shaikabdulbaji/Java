@@ -1,0 +1,10 @@
+package a30String;
+
+public class aSample {
+	
+	/*
+	 * String is a sequence of characters(includes alpha numeric also) and it is a class in 
+	   java but considered as a literal because of its unique behaviour.
+	 */
+
+}

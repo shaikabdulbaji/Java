@@ -1,0 +1,10 @@
+package a32Type_Inference;
+
+public class bTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

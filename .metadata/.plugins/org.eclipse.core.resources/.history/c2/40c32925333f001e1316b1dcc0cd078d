@@ -1,0 +1,12 @@
+package a22Constructor;
+
+public class cDefault_Constructor {
+
+	public static void main(String[] args) {
+
+		cDefault_Constructor dc = new cDefault_Constructor();
+		System.out.println("Hellow World");
+		
+	}
+
+}

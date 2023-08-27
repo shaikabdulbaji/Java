@@ -1,0 +1,10 @@
+package a23Object;
+
+public class aSample {
+	
+	/*
+	 * adina class ki manam memory allocate chaiyali antea create cheasea danea object antamu.
+	 * object is instance of class.
+	 */
+
+}

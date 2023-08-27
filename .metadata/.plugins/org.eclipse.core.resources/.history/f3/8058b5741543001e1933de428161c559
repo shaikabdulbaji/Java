@@ -1,0 +1,12 @@
+package a31Static_and_nonstatic;
+
+public class cTest2 {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

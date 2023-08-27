@@ -1,0 +1,17 @@
+package a22Constructor;
+
+public class bConstructorPractice {
+	
+	public static void main(String[] args) {
+		
+		bConstructorPractice cp = new bConstructorPractice();
+		
+		/*
+		 * bConstructorPractice = class name
+		   cp = variable 
+		   = : assignmen operator
+		 */
+		
+	}
+
+}

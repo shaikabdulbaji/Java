@@ -1,0 +1,33 @@
+package a23Object;
+
+public class bObject_practice {
+	
+	int i;
+	int j;
+	
+	public bObject_practice() {
+		i = 10;
+		j = 20;
+	}
+	
+	public bObject_practice(int i, int j) {
+		this.i = i; //ekada this nduku vadamu antea adi class level variables ki redirect chaiyataniki vadamu
+		this.j = j;
+	}
+
+	public static void main(String[] args) {
+
+		bObject_practice op1 = new bObject_practice();      //30
+		bObject_practice op2 = new bObject_practice(20,30); //50
+		bObject_practice op3 = new bObject_practice(25,35); //60
+		
+		System.out.println(op1.add());
+		System.out.println(op2.add());
+		System.out.println(op3.add());
+	}
+	
+	public int add() {
+		return i+j;
+	}
+
+}

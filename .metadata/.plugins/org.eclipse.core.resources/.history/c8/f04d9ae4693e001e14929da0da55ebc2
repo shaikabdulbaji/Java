@@ -1,0 +1,22 @@
+package a20Operators;
+
+public class cUnary_Operators {
+
+	public static void main(String[] args) {
+		
+		int i=20;
+		int j=6;
+		
+		/*
+		 * Preincrement : mundhu increment jargina tarvata aa value ni nuvu access cheasukuntav.
+		 * Postincrement : mundhu value ni access cheasukuntav tarvata increment jargutundi .
+		 */
+		
+		System.out.println(i);
+		System.out.println("Preincrement :"+ ++i);
+		System.out.println("----------------------");
+		System.out.println("Postincrement :"+ i++);
+		System.out.println(i);
+	}
+
+}

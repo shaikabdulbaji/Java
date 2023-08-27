@@ -1,0 +1,11 @@
+package a28Array_Multi_DimensionalArray;
+
+public class bMulti_Dimensional_Array {
+
+	public static void main(String[] args) {
+		
+		int[][] j = new int[3][2];
+		
+	}
+
+}

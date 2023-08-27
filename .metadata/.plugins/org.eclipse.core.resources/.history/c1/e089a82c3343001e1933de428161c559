@@ -1,0 +1,16 @@
+package a32Type_Inference;
+
+public class bTest {
+
+	public static void main(String[] args) {
+
+		var i = 200000;
+		String str = "abdul";
+		boolean b = true;
+		
+		System.out.println(i);
+		
+		
+	}
+
+}

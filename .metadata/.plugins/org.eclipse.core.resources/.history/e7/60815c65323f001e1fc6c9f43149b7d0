@@ -1,0 +1,10 @@
+package a22Constructor;
+
+public class cDefault_Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

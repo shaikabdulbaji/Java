@@ -1,0 +1,41 @@
+package a21Decision_making_Statements;
+
+/*
+ * Syntax : 
+   switch(key){
+   		Case value;
+	   		//statements
+	   		break;
+	   		
+	   	default;
+	   		//statements
+	   		break;
+   
+   }
+ */
+
+public class if_ {
+	
+	public static void main(String[] args) {
+		
+		int i = -10;
+		
+		if(i<0)
+		{
+			System.out.println("It is negtive number");
+		}if(i>0)
+		{
+			System.out.println("It is postive number");
+		}
+		
+		/*
+		 * ekada "if" statements lo disadvantage entantea only one true (or) false adovakatea execute
+		   aavutundi malli inko statement kavali antea malli "if" statement rayali.
+		   edi overcome chaiyataniki manam if else ki veltamu andulo both true and false rendu execute 
+		   aavutai statements.
+		 */
+		
+		
+	}
+
+}

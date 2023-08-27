@@ -1,0 +1,34 @@
+package a20ConditionalStatements;
+
+/*
+ * Syntax : it will execute postive outcomes
+   if(condition)
+   {
+   		//statements
+   }
+   
+ * Syntax : it will execute both postive and negative outcomes
+   if(condition)
+   {
+   		//statements
+   }else
+   {
+   	   //statements
+   }
+ */
+
+public class nested_ifelse {
+
+	public static void main(String[] args) {
+
+		String extamStatus = "Pass";
+
+		if (extamStatus == "Pass") {
+			System.out.println("Qualify for next round");
+		} else {
+			System.out.println("Go to Home");
+		}
+
+	}
+
+}

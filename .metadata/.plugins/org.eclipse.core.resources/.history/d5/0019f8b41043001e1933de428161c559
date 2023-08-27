@@ -1,0 +1,11 @@
+package a31Static_and_nonstatic;
+
+public class bTest1 {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

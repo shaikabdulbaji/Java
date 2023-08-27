@@ -1,0 +1,13 @@
+package a29foreach_loop;
+
+public class aSample {
+	
+	/*
+	 * Syntax for for-each loop :
+	   for(dataType varName : array (or) collection)
+	   {
+	   		//statements
+	   }
+	 */
+
+}

@@ -1,0 +1,11 @@
+package a25Looping_Statements;
+
+public class bwhile {
+
+	public static void main(String[] args) {
+
+		int i = 0;
+		
+	}
+
+}

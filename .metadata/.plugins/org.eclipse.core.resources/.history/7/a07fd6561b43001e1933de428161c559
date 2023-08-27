@@ -1,0 +1,20 @@
+package a31Static_and_nonstatic;
+
+public class dStatic_blocks {
+
+	static {
+		System.out.println("static method");
+	}
+	
+	{
+		System.out.println("non-static method");
+	}
+	
+	
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

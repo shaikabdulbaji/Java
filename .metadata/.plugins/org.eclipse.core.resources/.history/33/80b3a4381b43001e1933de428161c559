@@ -1,0 +1,10 @@
+package a31Static_and_nonstatic;
+
+public class dStatic_blocks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

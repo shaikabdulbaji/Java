@@ -1,0 +1,13 @@
+package a31Static_and_nonstatic;
+
+public class eCalling_methods {
+	
+	public static void main(String[] args) {
+		new eCalling_methods().print();
+	}
+	
+	public void print() {
+		main(null);
+	}
+
+}

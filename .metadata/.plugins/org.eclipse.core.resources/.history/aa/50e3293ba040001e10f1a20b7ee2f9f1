@@ -1,0 +1,21 @@
+package a27Array_Single_DimensionArray;
+
+public class aSample {
+	
+	/*
+	 * java lo adana data (or) value ni store chaiyali antea manam vaka container ni create chestamu 
+	   aa container nea variable antamu.
+	 * compulsary manam data variable create cheaseatapudu aa datatype aneadi kuda specify chaiyali.
+	 * datatype aneadi specify chaiyakunda nuvu variable aneadi create chaiyaleavu.
+	   for eg :
+	   int i = 10;
+	   10 --> data
+	   i --> variable (or) container
+	   int --> datatype
+	   datatype aneadi a type of data ni store chestunamu aneadi suchichidi.
+	   
+	 * Java aneadi 100% oop kadu nduku antea manaki java lo prathidi object rupam lo untundi
+	   kani primitive datatypes mataram manam object create chaiyaleamu.
+	 */
+
+}

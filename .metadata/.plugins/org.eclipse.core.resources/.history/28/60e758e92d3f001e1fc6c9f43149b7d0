@@ -1,0 +1,18 @@
+package a22Constructor;
+
+public class aSample {
+	
+	/*
+	 * Constructor is a block of code similar to method. it is called when an instance(or)object
+	   of the class is created.
+	 * Constructor and method both are block of codes.
+	 * Constructor and method both are in the class only.
+	 * Constructor aneadi object create cheaseatapudu call chestamu.
+	 * method aneadi object create cheasina tarvata call chestamu.
+	 * vaka class ki memory allocate chaiyataniki manam object ni create chestamu.
+	   object create cheasina tarvata variables ni kani methods ni kani call chestamu.
+	 */
+	
+	
+
+}

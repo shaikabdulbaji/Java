@@ -1,0 +1,21 @@
+package a22Constructor;
+
+public class dTypes_of_ExplicitConstructors {
+	
+	public static void main(String[] args) {
+		
+		dTypes_of_ExplicitConstructors ec = new dTypes_of_ExplicitConstructors();
+			
+	}
+	
+	
+	
+	public  dTypes_of_ExplicitConstructors() {
+		
+	}
+	
+	public  dTypes_of_ExplicitConstructors(int a) {
+		
+	}
+
+}

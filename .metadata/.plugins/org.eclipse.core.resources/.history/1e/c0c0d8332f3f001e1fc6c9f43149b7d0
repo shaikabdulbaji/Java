@@ -1,0 +1,39 @@
+package a22Constructor;
+
+public class bConstructorPractice {
+	
+	public static void main(String[] args) {
+		
+		bConstructorPractice cp = new bConstructorPractice();
+		
+		/*
+		 * Where we use constructors?
+		 * bConstructorPractice = class name
+		   cp = variable 
+		   = : assignmen operator
+		   new = keyword
+		   bConstructorPractice() = Constructor.
+		   
+		   class name ki constructor ki difference "()" or paranthasis.
+		   
+		 * Constructor ni manamu object create cheaseatapud call chestamu.
+		   
+		 */
+		
+		/*
+		 * Why we use constructors?
+		 * bConstructorPractice = class name
+		   cp = variable 
+		   = : assignmen operator
+		   new = keyword
+		   bConstructorPractice() = Constructor.
+		   
+		   class name ki constructor ki difference "()" or paranthasis.
+		   
+		 * Constructor ni manamu object create cheaseatapud call chestamu.
+		   
+		 */
+		
+	}
+
+}

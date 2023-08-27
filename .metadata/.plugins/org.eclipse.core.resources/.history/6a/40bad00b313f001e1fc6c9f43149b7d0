@@ -1,0 +1,51 @@
+package a22Constructor;
+
+/*
+ * Where we use constructors?
+ * bConstructorPractice = class name
+   cp = variable 
+   = : assignmen operator
+   new = keyword
+   bConstructorPractice() = Constructor.
+   
+   class name ki constructor ki difference "()" or paranthasis.
+   
+ * Constructor ni manamu object create cheaseatapud call chestamu.
+   
+ */
+
+/*
+ * Why we use constructors?
+ * adana class ki memory allocate chaiyataniki object ni create chestamu.
+ * class ki memory allocate chaiyatam antea indirect ga variables ki methods ki memory
+   allocate cheasinatu.
+ * variables ki methods ki memory allocate cheastunamu antea internal ga  or java lo ado 
+   vaka operation jargutundi.
+ * aa memory allocation chaiyatniki jarigea operations ani constructors lo chestam ana mata.
+  
+ Note:
+ * Manam constructor ni create chaiyakapotea default ga java default contructor create chestundi.
+   default constructor (or) implicit constructor both are same.
+ */
+
+/*
+ * Rules of Constructor :
+   1. Constructor name is same as class name.
+   2. Constructors ki return type (or) void undadu. manam constructors lo adi return chaiyamu.
+   3. default constructors apudu public ganea untai.
+ */
+
+public class bConstructorPractice {
+	
+	public static void main(String[] args) {
+		
+		bConstructorPractice cp = new bConstructorPractice();
+			
+	}
+	
+	//default constructor
+	public  bConstructorPractice() {
+		
+	}
+
+}

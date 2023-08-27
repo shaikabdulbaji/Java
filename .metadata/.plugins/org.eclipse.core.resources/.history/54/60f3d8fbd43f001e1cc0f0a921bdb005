@@ -1,0 +1,12 @@
+package a23Object;
+
+public class bObject_practice2 {
+	
+	public static void main(String[] args) {
+
+		bObject_practice2 op1 = new bObject_practice2();      
+		
+		System.out.println(op1.add());
+
+	}
+}

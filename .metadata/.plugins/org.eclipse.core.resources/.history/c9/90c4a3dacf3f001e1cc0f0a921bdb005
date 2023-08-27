@@ -1,0 +1,22 @@
+package a23Object;
+
+public class bObject_practice {
+	
+	int i;
+	int j;
+	
+	public bObject_practice() {
+		
+	}
+	
+	public bObject_practice(int i, int j) {
+		
+	}
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

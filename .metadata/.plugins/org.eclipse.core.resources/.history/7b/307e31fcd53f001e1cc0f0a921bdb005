@@ -1,0 +1,23 @@
+package a23Object;
+
+public class aSample {
+	
+	/*
+	 * adina class ki manam memory allocate chaiyali antea create cheasea danea object antamu.
+	 * object is instance of class.
+	 
+	 * for eg : adana company vallu vaka text book ni print chaiyali anukunaru antea danikosam
+	   vallu vaka blueprint ni create cheasi kavalsinani text books print cheasukovachu aa blue
+	   print tho.
+	   alagani manam vaka text book lo amana rasamu anuko vrea text book lo amana reflect ieda
+	   alagea manam vaka class ki kavlasinani objects create cheasukovachu, vaka object lo 
+	   amana actions create chestea verea object lo aa actions reflect aavavu.
+	 */
+	
+	/*
+	 * object aneadi class yoka instance.
+	 * class aneadi vaka blueprint.
+	 * aa blueprint lo manaki variables and method untai
+	 */
+
+}

@@ -1,0 +1,34 @@
+package a31Static_and_nonstatic;
+
+public class dStatic_blocks {
+
+	static int number;
+	
+	static {
+		System.out.println("static method");
+		number = 10;
+		/*
+		 * ekada amana initialization chaiyalantea chaiyavachu ndukantea 100 methods una vatikana
+		   mundhu edi vakasari execute aavutundi.
+		 * vakaveala manam constructor lo kani non-static method lo kani initilaize chestea dani
+		   kosam object create cheasi call chaiyali. adea e static block ki ala aaavasaram leadu.
+		 */
+	}
+	
+	{
+		System.out.println("non-static method");
+	}
+	
+	public dStatic_blocks() {
+		System.out.println("constructor");
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("main method");
+		
+		dStatic_blocks t1 = new dStatic_blocks();
+		System.out.println(t1.number);
+	}
+
+}

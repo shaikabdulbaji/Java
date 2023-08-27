@@ -1,0 +1,27 @@
+package a22Constructor;
+
+public class fMemory_allocation_for_parameterized_constructors {
+	
+	public int i;
+	
+	public static void main(String[] args) {
+		
+		fMemory_allocation_for_parameterized_constructors ec = new fMemory_allocation_for_parameterized_constructors();
+		/*
+		 * ekada manam i ki a value evaleadu apudu manam i ni print chestea default value for 
+		   int is "0" print iedi.
+		 * java internal ga default constructor ni call cheasi default value print cheasidi
+		 */
+		System.out.println(ec.i);
+		
+		public  eMemory_allocation_with_constructors() {
+			
+		}
+		
+		public  eMemory_allocation_with_constructors(int a) {
+			
+		}
+		
+	}
+
+}
