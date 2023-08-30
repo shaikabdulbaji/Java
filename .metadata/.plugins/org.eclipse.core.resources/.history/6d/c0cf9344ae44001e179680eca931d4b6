@@ -1,0 +1,42 @@
+package a36Interface_Part1;
+
+/*
+ * Defined or unimplemented methods are known as "abstract methods".
+ */
+
+
+public interface bLaptop {
+	
+	public void copy();
+	
+	public void paste();
+	
+	public void cut();
+	
+	public void keybord();
+	
+	/*
+	 ** Untill Java-7
+	 * manam paina koni methods define chesamu vatiki implementation ekada kakunda vaka seperate
+	   class create cheasi akada e interface akada implement cheasi vati implementation methods rastamu.
+	   manam incase amana kotha method rayali antea e interface lo rastea error vastadi. motham create 
+	   cheasina classes ki error vachi distrub aavutai. 
+	   
+	   dini overcome chaiyatniki vaka kotha method introduce cheasaru from java-7.
+	   
+	 * manam amana method define cheaseatapudu a access modifier ina evachu. paina problem overcome 
+	   chaiyataniki two options echaru access modifier ga "default and static" evachu apudu vatiki
+	   implementation ekada interface lo evachu.
+	 * implementation aneadi below chudandi.
+	 */
+	
+	default void capture() {
+		
+	}
+	
+	static void icon() {
+		
+	}
+	
+	
+}

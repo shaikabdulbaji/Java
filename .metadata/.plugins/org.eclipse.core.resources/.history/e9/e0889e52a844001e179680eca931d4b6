@@ -1,0 +1,10 @@
+package a36Interface_Part1;
+
+public class fUser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

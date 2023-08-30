@@ -1,0 +1,10 @@
+package a36Interface_Part2_61;
+
+public class cAudi implements bCar{
+
+	@Override
+	public void drive() {
+		System.out.println("Drive is Called");
+	}
+
+}

@@ -1,0 +1,16 @@
+package a40Exception_Handling;
+
+public class aSample {
+	
+	/*
+	 1. What is Exception?
+	 * Exception is an event that occurs during the exception of a program that disrupts the nprmal flow
+	   of execution.
+	 */
+	
+	/*
+	 2. What is exception handling?
+	 * User is going to handle the exception is called exception handling.
+	 */
+
+}

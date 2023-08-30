@@ -1,0 +1,25 @@
+package a35Access_Modifiers_sub_class;
+
+import a35Access_Modifiers.fprotected_modifier;
+
+/*
+ * subclass aneadi default ki verea package lo use cheasukoleamu own package lo use cheasukogalamu.
+ */
+
+
+public class hprotected_modifier extends fprotected_modifier{
+	
+	public static void main(String[] args) {
+
+		edefault_modifier bpm = new edefault_modifier();
+		System.out.println(bpm.rollNo);
+		bpm.printRollNumber();
+	}
+	
+	public void test() {
+		System.out.println(rollNo);
+		printRollNumber();
+		
+	}
+
+}

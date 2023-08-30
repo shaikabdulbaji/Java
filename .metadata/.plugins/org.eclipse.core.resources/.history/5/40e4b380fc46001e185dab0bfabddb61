@@ -1,0 +1,11 @@
+package a44qJavaBean_Class;
+
+import java.io.Serializable;
+
+public class dStudent implements Serializable{
+	
+	private int id;
+	private String name;
+	private double marks;
+
+}

@@ -1,0 +1,13 @@
+package a42Files_in_Java_Part2;
+
+import java.io.File;
+
+public class bProgram {
+	
+	public static void main(String[] args) {
+		
+		File file = new File(".\sample.txt");
+		
+	}
+
+}

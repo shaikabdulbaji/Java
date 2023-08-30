@@ -1,0 +1,21 @@
+package a35Access_Modifiers_next_package;
+
+import a35Access_Modifiers.bpublic_modifier;
+import a35Access_Modifiers.dprivate_modifier;
+
+public class fdefault_modifier {
+
+	public static void main(String[] args) {
+
+//		edefault_modifier bpm = new edefault_modifier();
+//		System.out.println(bpm.rollNo);
+//		bpm.printRollNumber();
+		
+		/*
+		 * default modifier untea dani inside class or inside package kuda access chaiyaleamu.
+		 * default modifer aneadi classes ki and variables ki and methods ki use cheasukovachu.
+		 */
+		
+	}
+
+}

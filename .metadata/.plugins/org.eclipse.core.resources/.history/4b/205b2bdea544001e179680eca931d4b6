@@ -1,0 +1,13 @@
+package a36Interface_Part1;
+
+public interface bLaptop {
+	
+	public void copy();
+	
+	public void paste();
+	
+	public void cut();
+	
+	public void keybord();
+
+}

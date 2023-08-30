@@ -1,0 +1,23 @@
+package a35Access_Modifiers;
+
+class edefault_modifier {
+
+	int rollNo = 101;
+	
+	//constructor
+	edefault_modifier() {
+		rollNo = 102;
+	}
+	
+	//method
+	void printRollNumber() {
+		System.out.println(rollNo);
+	}
+	
+	//main method
+	static void main(String[] args) {
+
+		
+	}
+
+}

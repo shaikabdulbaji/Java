@@ -1,0 +1,30 @@
+package a44POJO_Class_Java_Bean_Class;
+
+public class bProgram {
+
+	public static void main(String[] args) {
+
+		cEmployee emp = new cEmployee();
+		emp.setId(20);
+		emp.setName("abdul");
+		emp.setSalary(20000.00);
+		
+		cEmployee emp1 = new cEmployee();
+		emp1.setId(20);
+		emp1.setName("abdul");
+		emp1.setSalary(20000.00);
+		
+		cEmployee emp2 = new cEmployee();
+		emp2.setId(20);
+		emp2.setName("abdul");
+		emp2.setSalary(20000.00);
+		
+		cEmployee emp3 = new cEmployee();
+		emp3.setId(20);
+		emp3.setName("abdul");
+		emp3.setSalary(20000.00);
+		
+		cEmployee[] e = new cEmployee[] {emp, emp1, emp2, emp3};
+	}
+
+}

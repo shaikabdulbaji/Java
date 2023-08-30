@@ -1,0 +1,20 @@
+package a35Access_Modifiers_next_package;
+
+public class cpublic_modifier {
+
+	public static void main(String[] args) {
+
+		bpublic_modifier bpm = new bpublic_modifier();
+		System.out.println(bpm.rollNo);
+		bpm.printRollNumber();
+		
+		/*
+		 * public modifier petamu anuko same class lo call chaiyalantea object create chaiyali
+		   and same package lo call chaiyalantea object create chaiyali.
+		 * public modifier ni verea package lo call chaiyali antea
+		 */
+		
+		
+	}
+
+}

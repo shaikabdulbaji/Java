@@ -1,0 +1,32 @@
+package a37Abstract_Class;
+
+public abstract class dLenovo implements bLaptop{
+
+	@Override
+	public void copy() {
+		System.out.println("Lenovo copy code");		
+	}
+
+	@Override
+	public void paste() {
+		System.out.println("Lenovo paste code");				
+	}
+
+	public abstract void cut();
+	
+	
+	/*
+	 * manam mandatory ga implement chaiyalsina methods implement chaiyakapotea ekada class lo error 
+	   chupistadi dani overcome chaiyali antea abstract estea class ki mundhu saripotadi.
+	 * abstract class lo implemented and unimplemented methods undochu.
+	 */
+	
+	public void camera() {
+		System.out.println("Lenovo camera code");
+	}
+	
+	public void security() {
+		System.out.println("Lenovo security code");
+	}
+
+}

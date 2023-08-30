@@ -1,0 +1,36 @@
+package a40Exception_Handling;
+
+/*
+ * 
+ */
+
+public class fException_by_throws {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Program Execution Started");
+		
+		int a = 10;
+		int b = 0;		
+		int result = 0;
+		
+		
+		try {
+			result = a / b;
+		}catch(ArithmeticException ae) {
+			System.out.println(ae.toString());
+			
+			throw ae;
+		}
+		finally {
+			System.out.println("Finally block");
+		}
+	
+		
+		System.out.println("Output is : " +result);
+		
+		System.out.println("Program Execution Ended");
+	}
+
+
+}

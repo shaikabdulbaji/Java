@@ -1,0 +1,28 @@
+package a40Exception_Handling;
+
+public class aSample {
+	
+	/*
+	 1. What is Exception?
+	 * Exception is an event that occurs during the exception of a program that disrupts the nprmal flow
+	   of execution.
+	 */
+	
+	/*
+	 2. What is exception handling?
+	 * User is going to handle the exception is called exception handling.
+	 */
+	
+	/*
+	 3. Why do we need exception handling?
+	 * To take the control of exceptions from the java.
+	 * nduku antea java aa exceptions ni handel chestea madyalo program execution apestundi.
+	 */
+	
+	/*
+	 4. Different types of Exceptions?
+	    1. Checked exceptions (Compile-time exceptions)
+	    2. Unchecked exceptions (Run-time exceptions)
+	 */
+
+}

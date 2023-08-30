@@ -1,0 +1,22 @@
+package a35Access_Modifiers_sub_class;
+
+/*
+ * vaka veala main class lo constructor ni private di public cheasina ekada class create
+   cheasukovachu emo kani variables and methods access chaiyaleamu.
+ */
+
+
+public class gdefault_modifier extends edefault_modifier{
+	
+	public static void main(String[] args) {
+
+		
+	}
+	
+	public void test() {
+		System.out.println(rollNo);
+		printRollNumber();
+		
+	}
+
+}

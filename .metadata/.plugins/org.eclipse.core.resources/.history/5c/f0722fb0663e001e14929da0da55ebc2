@@ -1,9 +1,0 @@
-package a20Operators;
-
-public class bArthmetic_Operators {
-
-	public static void main(String[] args) {
-
-	}
-
-}

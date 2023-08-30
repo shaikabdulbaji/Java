@@ -1,0 +1,10 @@
+package a40Exception_Handling_Part2_43;
+
+public class dcustomize_exception {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package a37Abstract_Class;
+
+public class fUser {
+
+	public static void main(String[] args) {
+
+		dLenovo lenovo = new dLenovo();
+		lenovo.copy();
+		lenovo.cut();
+		lenovo.camera();
+		lenovo.security();
+		bLaptop.audio();
+		
+		cHP hp = new cHP();
+		hp.copy();
+		hp.printing();
+	}
+
+}

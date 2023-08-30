@@ -1,0 +1,10 @@
+package a40Exception_Handling;
+
+public class bProgram1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
