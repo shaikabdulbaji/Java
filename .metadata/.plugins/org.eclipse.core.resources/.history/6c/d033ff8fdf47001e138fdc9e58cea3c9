@@ -1,0 +1,28 @@
+package a56Memory_Management_in_Java;
+
+public class bEmployee {
+	
+	int orgId = 454;
+	String orgName = "livetech";
+	String ceo = "abdul";
+	int noofDepartment = 2;
+	static double netWorth = 500.00;
+
+	public static void main(String[] args) {
+		
+		int empId = 101;
+		String empName = "baji";
+		double salary = 5000;
+		
+		bProgram bp = new bProgram();
+		
+	}
+
+	public int getorgId() {		 
+		return orgId;
+	}
+	
+	public static deleteEmpoyee() {
+		
+	}
+}

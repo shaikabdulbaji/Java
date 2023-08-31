@@ -1,0 +1,18 @@
+package a56Memory_Management_in_Java;
+
+
+/*
+ * ekada recurssion use cheasi manam stack area yoka memory full cheasi chudam em exception vastundo ani.
+ */
+public class cTest {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+	public void add(int i) {
+		
+	}
+}

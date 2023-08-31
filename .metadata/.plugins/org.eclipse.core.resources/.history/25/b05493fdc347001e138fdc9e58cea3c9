@@ -1,0 +1,19 @@
+package a56Memory_Management_in_Java;
+
+public class aSample {
+	
+	/*
+	 1. What is memory management?
+	 * Memory manage chaiyatanea memory management antamu.
+	 * memory lo 2 types untai RAM, ROM
+	 * ROM - Permanent memory
+	 * RAM - Temporary memory
+	 * manam in general ga vaka photo tisina leka vaka video tisina dani ROM lo store chestundi
+	   system default ga.
+	 
+	 * mari RAM lo em store itai antea mana amana rastunamu anuko save chaikunda adi RAM lo store
+	   iedi leka vaka photo tisina save chaikunda adi RAM lo store iedi leka amana excel lo amana 
+	   data estuna anuko save chaikunda adi RAM lo store iedi.
+	 */
+
+}

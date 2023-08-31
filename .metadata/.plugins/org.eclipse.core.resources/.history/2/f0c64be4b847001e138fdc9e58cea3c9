@@ -1,0 +1,54 @@
+package a51JDK_JRE_and_JVM_in_Java;
+
+public class cJVM {
+	
+	/*
+	 JVM - Java Virtual Machine.
+	 * jvm lo chala untai, danilo koni
+	   JVM = class loader sub system + Runtime data area + Execution engine + Native libraries.
+	   
+	   JDK lo .java files untai
+	   JRE lo .class ga martai aa .java files.
+	   JVM lo machine understandable code/interpreted code untadi.
+	   
+	   jre lo Runtime tools unai kada malli ekada Runtime data area nduku antea aa runtime tools 
+	   program ni jvm loki push chestai asal kadha antha jvm lo untadi.
+	   
+	   e jvm kosam ekada vaka image attach cheasamu danilo clear ga and indepth ga undi matter.
+	   
+	   JVM = class loader sub system + Runtime data area + Execution engine + Native libraries.
+	   
+	   class loader sub system :
+	   -----------------------
+	   e class loader sub system lo 3 components untai.
+	   1. loading  
+	   2. linking  
+	   3. initialization 
+	       	   
+	   1. loading aneadi jre lo una .class files ni execute cheaseatapudu aa class files ni load 
+	   	  cheasi petukotaniki e loading anea compartment use aavutundi.
+	      e loading lo kuda 3 components untai :
+	      1. Bootstrap class loader  
+	      2. Extension class loader  
+	      3. Application class loader
+	      	 ani 3 components untai.
+	      1.Bootstrap class loader --> edi rt.jar lo una class files ni load cheasi petukotaniki 
+	      							   use chestamu.
+	      2.Extension class loader --> edi jre lo una lib lo una ext folder lo una libraries load 
+	      							   cheasi petukuntundi. evi os param ga pani chestai.
+	      3.Application class loader --> edi entantea manam e internal libraaries kakunda external 
+	      								 ga amana libraries add cgeasamu anuko danilo ni classes 
+	      								 load cheasi petukuntadi.
+	      								 for eg :
+	      								 java use cheasi excel file handle chaiyali antea java tho 
+	      								 aavadu danikosam external ga koni libraries attach chestamu
+	      								 like jxl or apache-poi e libraries lo una class files ni
+	      								 load chaiyataniki edi use aavutadi.
+	   2. linking 
+	   	  e linking lo kuda 3 components untai :
+	   	  1. verify
+	   	  2. Prepare
+	   	  3. Resolve
+	 */
+
+}

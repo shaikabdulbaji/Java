@@ -1,0 +1,24 @@
+package a51JDK_JRE_and_JVM_in_Java;
+
+public class aJDK {
+	
+	/*
+	 JDK - Java Development Kit
+	 * jdk aniti kana pedadi or outer layer
+	 * jdk lopala jre untadi or middle layer
+	 * jre lopala jvm untadi or inner layer
+	 * jdk and jre are tools but jvm is virtual machine, jvm ni manam apudu installation chaiyaleamu.
+	 * jvm kavalantea jre install chaiyali, jre kavalantea jdk install chaiyanakarleadu.
+	 * untill 1.8v jdk and jre seperate ga install cheasukovachu but from 1.8v onwards jdk and jre
+	   seperate ga install chaiyaleamu adi antha vaka kit la install cheasukovali.
+	   
+	 * asal edantha practical ga chudali anea mana system lo install ie una java ni chudamu bydefault
+	   ga java aneadi programfiles lo install ie untadi.
+	 * 1.8v antea adi 8v ani ardam, 8v tarvata nundi 1. tiseasi (9,11,17,21)v ela numbering echaru 
+	   java ki.
+	 * 1.8v loki velli chustea jre ani vaka folder inka koni verea folders untai.
+	 * inka koni verea folders unai ani chepanu kada danilo bin ani vaka folder undi danilo javac ani 
+	   vaka appliation undi adi development ki use iedi
+	 */
+
+}
