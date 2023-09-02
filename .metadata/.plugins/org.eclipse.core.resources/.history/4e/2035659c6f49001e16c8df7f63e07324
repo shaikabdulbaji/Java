@@ -1,0 +1,14 @@
+package a59Inner_classes_Part2;
+
+public class gaStudent {
+	
+	public static void main(String[] args) {
+		
+		gStudent s = new gStudent() {
+			
+		};
+				
+	}
+	
+}	
+	

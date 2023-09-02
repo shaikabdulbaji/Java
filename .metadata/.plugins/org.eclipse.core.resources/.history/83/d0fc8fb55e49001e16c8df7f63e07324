@@ -1,0 +1,11 @@
+package a59Inner_classes_Part2;
+
+public class aSample {
+	
+	/*
+	 1. What is Local class?
+	 * class inside one block is called local class.
+	 * aa classes ki manam access modifer ga abstract and final e rendea use chestamu.
+	 */
+
+}

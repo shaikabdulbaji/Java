@@ -1,0 +1,16 @@
+package a58Garbage_Collection;
+
+public class aSample {
+	
+	/*
+	 * Garbage collection --> antea collecting of scrap.
+	 * for eg :
+	   manam milk packet techamu anuko aa milk bayataki tisea daka aa packet value, tisina tarvata
+	   adi scrap a.
+	   alagea amazon lo amana order cheasamu anuko aa order vaka box lo vachidi, aa iteam bayata
+	   tiyanantha sepu aa box ki vaalue untadi, aa item bayataki tistea aa box scrap a inka.
+	   
+	   epudu manam e garbage collection ni java ki apply cheasi chudamu.
+	 */
+
+}

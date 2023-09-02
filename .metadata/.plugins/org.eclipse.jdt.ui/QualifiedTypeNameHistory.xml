@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="a35Access_Modifiers.bpublic_modifier"/>
     <fullyQualifiedTypeName name="a35Access_Modifiers.dprivate_modifier"/>
     <fullyQualifiedTypeName name="a35Access_Modifiers.fprotected_modifier"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.io.File"/>
@@ -17,4 +16,9 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="a59Inner_classes_Part1.fTestClass2"/>
+    <fullyQualifiedTypeName name="a59Inner_classes_Part1.fTestClass5"/>
+    <fullyQualifiedTypeName name="a59Inner_classes_Part1.gTestClass6"/>
+    <fullyQualifiedTypeName name="a59Inner_classes_Part1.lStatic_inner_classes.fTestClass4"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 </qualifiedTypeNameHistroy>

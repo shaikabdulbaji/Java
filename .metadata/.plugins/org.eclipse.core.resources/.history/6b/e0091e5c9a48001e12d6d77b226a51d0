@@ -1,0 +1,15 @@
+package a59Inner_classes_Part1;
+
+public class bTestClass1 {
+
+	public static void main(String[] args) {
+
+		System.out.println("Main Method");
+		
+	}
+
+}
+
+class Class2() {
+	
+}

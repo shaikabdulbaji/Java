@@ -1,0 +1,51 @@
+package a59Inner_classes_Part1;
+
+public class aSample {
+	
+	/*
+	 * asal nduku e inner classes aneadi introduce cheasaru antea scope aneadi limited ga ravatam 
+	   kosam, and adana classes loni members ni accesschaiyali antea by using inheritance concept
+	   kani accessbility modifers public, private, protected, default vitini base cheasukonea
+	   adina nuvu access cheasuko galutavu.
+	   least access una modifier adi antea private. private untea inner class lonea nuvu access 
+	   cheasukogalavu outside of class nuvu access cheasukoleavu. 
+	   vaka veala vaka java file chala inner classesunai anuko main class ki private untea danilo
+	   members ni aa inner classe lo easy ga access cheasukovachu adea inner classes yoka 
+	   speciality.
+	   
+	   Simple ga chepali antea encapsulation and inheritance concepts inka baga extordinory
+	   ga vadukovachu.
+	 */
+	
+	/*
+	 1. Can we have more than one class in java file?
+	 * Yes, please refer to bTestClass1.java
+	 
+	 2. Can we have more than one public class in java file?
+	 * No, please refer to cTestClass2.java
+	 * mana ki java file lo only one public class a untundi adi kuda java filename tho untundi.
+	 
+	 3. How many class files will be generated when multiple classes are present in java file?
+	 * manaki vaka java file lo ani classes untea ani class files generate aavutai.
+	 
+	 4. Can we have main method in all the classes present at root level of java file?
+	 * Yes, but execution time lo matram vakatea class a run aavutadi adikuda manam echina or
+	   select cheasina class a run aavutadi.
+	   
+	 5. if a java class contain more than one class are they considerd as inner class?
+	 * These are nott considerd as inner classes.
+	 */
+	
+	/*
+	 1. What is Inner class?
+	 * vaka class lo inko class member ga untea dani Inner class antamu.
+	 
+	 2. How many types of Inner classes are there? what are they? 
+	 * In java there are four or 4 types of inner classes are there :
+	   1. non-static inner classes
+	   2. static inner classes
+	   3. local classes
+	   4. anonymous inner classes/ anonymous classes
+	 */
+
+}

@@ -1,0 +1,28 @@
+package a59Inner_classes_Part1;
+
+public class fTestClass5 {
+	int i =100;
+	public static void main(String[] args) {
+		
+		System.out.println("Main Method : TestClass-1");
+		
+	}
+	
+	class fTestClass1 {
+
+	}
+
+	class fTestClass2 {
+
+	}
+	
+	class fTestClass3 {
+
+	}
+
+	class fTestClass4 {
+
+	}
+
+}
+

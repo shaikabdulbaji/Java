@@ -1,0 +1,19 @@
+package a62Lambda_expressions;
+
+public class aNormal_Interface {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+
+class Audi implements Car {
+	
+}
+
+@FunctionalInterface
+interface Car {
+	public void drive();
+}

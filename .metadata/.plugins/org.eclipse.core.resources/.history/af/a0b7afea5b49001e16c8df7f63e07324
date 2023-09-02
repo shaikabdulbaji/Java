@@ -1,0 +1,11 @@
+package a59Inner_classes_Part2;
+
+public class aLocal_class {
+	
+	public static void main(String[] args) {
+		
+		int id = 100;
+		
+	}
+
+}

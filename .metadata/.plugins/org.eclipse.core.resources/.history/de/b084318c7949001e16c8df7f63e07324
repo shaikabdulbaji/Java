@@ -1,0 +1,23 @@
+package a62Lambda_expressions;
+
+public class dBy_using_LambdaExpressions_with_returnType {
+	
+	public static void main(String[] args) {
+		
+		//Lambda expression with anonymous functions
+		bike c1 = (speed, model) -> {
+			System.out.println("Driving tata");
+			System.out.println("Car speed at "+speed);
+			if(speed>100)
+				System.out.println("High speed "+model);
+			else
+				System.out.println("Low speed "+model);
+		  };
+		c1.ride(101, "BMW");
+	}
+}
+
+@FunctionalInterface
+interface cycle {
+	public void ride(int speed, String model);
+}

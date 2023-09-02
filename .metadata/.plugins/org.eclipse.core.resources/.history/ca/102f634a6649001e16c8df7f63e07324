@@ -1,0 +1,28 @@
+package a59Inner_classes_Part2;
+
+public class eAnonymous_class {
+	
+	public static void main(String[] args) {
+		
+		int id = 100;
+		int salary = 10000;
+
+		
+	}
+	
+}	
+	
+class class1 {
+		
+	public void show() {
+		System.out.println("Show Method is Called");
+	}
+		
+	public void print() {
+		System.out.println("Print Method is Called");
+	}
+}
+
+class class2 extends class1 {
+		
+}

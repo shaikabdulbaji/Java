@@ -1,0 +1,30 @@
+package a62Lambda_expressions;
+
+public class bBy_using_LambdaExpressions {
+	
+	public static void main(String[] args) {
+		car c = new car() 
+		{
+			public void drive() {
+				System.out.println("Driving BMW");
+			}
+		};
+		c.drive();
+		
+		audi a = new audi();
+		a.drive();
+	}
+
+}
+
+class audi implements car {
+	@Override
+	public void Drive() {
+		System.out.println("Driving Audi");
+	}	
+}
+
+@FunctionalInterface
+interface car {
+	public void drive();
+}

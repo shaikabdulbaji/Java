@@ -1,0 +1,16 @@
+package a62Lambda_expressions;
+
+public class aNormal_Interface {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+
+class 
+
+interface Car {
+	public void drive();
+}

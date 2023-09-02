@@ -1,0 +1,29 @@
+package a60Inner_classes_Part2;
+
+/*
+ * gaStudent or gbStudent e rentilo ado vakati vadukuntea saripodi.
+ */
+
+public class gaStudent {
+	
+	public static void main(String[] args) {
+		
+		gStudent s = new gStudent() {
+
+			@Override
+			public void attend() {
+				System.out.println("Attend is Called");
+			}
+
+			@Override
+			public void getMarks() {
+				System.out.println("getMarks is Called");
+			}
+			
+		};		
+		s.attend();
+		s.getMarks();
+	}
+	
+}	
+	

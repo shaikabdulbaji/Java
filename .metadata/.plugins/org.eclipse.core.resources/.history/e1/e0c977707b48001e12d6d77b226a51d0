@@ -1,0 +1,26 @@
+package a57Anonymous_objects_in_Java;
+
+/*
+ * manam adana program ki execution start cheasinapudu stack area lo vaka stack aneadi create 
+   aavutundi. manam execution cheasinapudu vaka thread aneadi run aavutundi, for every thread 
+   we have one stack. stack lopala em untaistack frames untai. each stack frame represents one
+   method. for eg manam main method aneadi execute chestnamu anuko daniki vaka stack frame aneadi
+   allocate aavutundi.
+ */
+
+public class bStudent {
+	
+	String name = "shaik abdul";
+	
+	public void greet() {
+		System.out.println("Hi "+name);
+	}
+	
+	public static void main(String[] args) {
+		
+		bStudent stu = new bStudent();
+		stu.greet();
+		
+	}
+
+}

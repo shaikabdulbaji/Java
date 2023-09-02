@@ -1,0 +1,12 @@
+package a59Inner_classes_Part2;
+
+public abstract class fAnonymous_class_with_abstract_class {
+	
+	
+		public void show() {
+			System.out.println("Show Method is Called");
+		}
+			
+		public void print();
+}	
+	

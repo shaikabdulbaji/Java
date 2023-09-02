@@ -1,0 +1,18 @@
+package a59Inner_classes_Part2;
+
+public class aLocal_class {
+	
+	public static void main(String[] args) {
+		
+		int id = 100;
+		double salary = 10000;
+		abstract class A {
+			
+		}
+		
+		final class B {
+			
+		}
+	}
+
+}
