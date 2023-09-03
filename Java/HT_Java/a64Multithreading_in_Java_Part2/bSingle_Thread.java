@@ -1,0 +1,25 @@
+package a64Multithreading_in_Java_Part2;
+
+public class bSingle_Thread {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hi Abdul");
+		System.out.println(Thread.activeCount());
+		System.out.println(Thread.currentThread().getName());
+		System.out.println(Thread.currentThread().getId());
+		System.out.println(Thread.currentThread().getPriority());
+		
+	}
+
+}
+
+/*
+ * simple ga main method kavali manki java lo adana run kavali antea.
+ * main method a vaka thread aa thread name java main ani estundi.
+ * Thread.activeCount() -> antea ani threads active lo unai ani ardam.
+ * Thread.currentThread().getName() -> e statement thread name ni estundi.
+ * Thread.currentThread().getId() -> e statement thread id ni estundi.
+ * Thread.currentThread().getPriority() -> e statement thread yoka priority ni estundi.
+   0 -> low priority, 5 -> medium priority, 10 -> high priority.
+ */

@@ -1,0 +1,19 @@
+package a64Multithreading_in_Java_Part2;
+
+public class hDoing_advance_of_using_multipthreading {
+
+	public static void main(String[] args) {
+
+		Runnable r1 = () -> System.out.println("Hi Employee "+Thread.currentThread().getName()+ " >> " + Thread.currentThread().getId());
+			
+		Thread t1 = new Thread(r1, "T1");
+		t1.start();
+		
+		Runnable r2 = () -> System.out.println("Hi Manager "+Thread.currentThread().getName()+ " >> " + Thread.currentThread().getId());
+					
+		Thread t2 = new Thread(r2, "T2");
+		t2.start();
+		
+		System.out.println(Thread.activeCount());
+	}
+}
