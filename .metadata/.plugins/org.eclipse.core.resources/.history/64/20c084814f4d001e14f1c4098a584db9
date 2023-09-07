@@ -1,0 +1,29 @@
+package a66StingBuffer_and_StringBuilder;
+
+/*
+ * StringBuilder 1.5v nunchi undi.
+ * StringBuilder is non-synchronized and it is for single thread.
+ * It is thread safe.
+ */
+
+public class dStringBuilder {
+
+	public static void main(String[] args) {
+
+		StringBuilder sb1 = new StringBuilder("abdul");//24
+		sb1.insert(0, "sk");
+		System.out.println(sb1);
+		StringBuilder sb2 = new StringBuilder("abdul");//30
+		
+		System.out.println(sb1==sb2);
+		
+		sb1 = sb1.append("shaik");//26
+		System.out.println(sb1==sb2);
+		
+		StringBuilder sb3 = new StringBuilder("abdul baji");//44
+		System.out.println(sb1==sb3);
+		
+		
+	}
+
+}

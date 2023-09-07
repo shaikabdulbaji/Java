@@ -1,9 +1,0 @@
-package a44qJavaBean_Class;
-
-public class dStudent {
-	
-	int id;
-	String name;
-	double marks;
-
-}

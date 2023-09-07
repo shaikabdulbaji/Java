@@ -1,0 +1,19 @@
+package a66StingBuffer_and_StringBuilder;
+
+public class aSample {
+	
+	/*
+	 * String aneadi non-primitive datatype and it is also called as literal.
+	 * mutability --> adina vaka daniki change iea gunam untea dani manam mutability antamu.
+	 * mutable --> change cheasukovachu
+	 * immutable --> change cheasukoleamu
+	 * for eg: 
+	   1. thonda --> vakatea colur untadi
+	   2. uusaravelli --> colurs change aavutai
+	   manam thonda anea dani variable anukuntea dani lo vakatea data peta galam.
+	   manam uusaravelli anea dani variable anukuntea dani lo data ni change cheasukovachu.
+	   
+	 * StringBuffer & StringBuilder both are immutable. 
+	 */
+
+}

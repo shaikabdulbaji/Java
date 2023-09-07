@@ -1,0 +1,22 @@
+package a66StingBuffer_and_StringBuilder;
+
+public class cStringBuffer {
+
+	public static void main(String[] args) {
+
+		String s1 = "abdul";
+		System.out.println(s1);
+		String s2 = "abdul";
+		System.out.println(s1==s2);
+		
+		s1 = s1 + "shaik";
+		System.out.println(s1);
+		System.out.println(s1==s2);
+		
+		String s3 = "shaik baji";
+		System.out.println(s1==s3);
+		
+		
+	}
+
+}

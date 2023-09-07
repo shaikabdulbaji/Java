@@ -3,8 +3,8 @@ package a14Data_types;
 public class Dog {
 	
 	/*
-	 * a datatype is a classification of data which tells the compiler or interpreter how
-	   the programmer intends to use the data.
+	 * A datatype is a classification of data which tells the compiler or interpreter how the programmer intends to
+	   use the data.
 	 * datatypes aneadi variables create cheseatapudu use chestamu.
 	 * variable ki mundhu mana datatype estamu 
 	   eg : int a = 10;
@@ -15,9 +15,9 @@ public class Dog {
 	 */
 	
 	/*
-	 * datatypes are two types primitive type and non-primitive type.
+	 * datatypes are two types primitive datatype and non-primitive datatype.
 	 * default value of datatype is 
-	   numbers is 0.
+	   int is 0.
 	   String is null.
 	   boolean is true.
 	   character is spacce.

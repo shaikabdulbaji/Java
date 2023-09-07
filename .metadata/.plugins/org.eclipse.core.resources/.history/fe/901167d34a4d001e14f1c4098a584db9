@@ -1,0 +1,26 @@
+package a66StingBuffer_and_StringBuilder;
+
+/*
+ * StringBuffer 1.0v nunchi undi.
+ * StringBuffer is synchronized and it is for multithreaded.
+ */
+
+public class cStringBuffer {
+
+	public static void main(String[] args) {
+
+		StringBuffer sb1 = new StringBuffer("abdul");//24
+		StringBuffer sb2 = new StringBuffer("abdul");//36
+		
+		System.out.println(sb1==sb2);
+		
+		sb1 = sb1.append("shaik");//24
+		System.out.println(sb1==sb2);
+		
+		StringBuffer sb3 = new StringBuffer("abdul baji");//44
+		System.out.println(sb1==sb3);
+		
+		
+	}
+
+}

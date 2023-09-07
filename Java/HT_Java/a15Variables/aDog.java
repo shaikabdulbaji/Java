@@ -7,7 +7,7 @@ public class aDog {
 	  
 	 * epudu dog anea example tisukundam dog ki koni properties untai antea barking, 
 	   breed, eating, sleeping etc..
-	 * aa properties ni lo java lo represent chaiyalantea variables rupam lo represent
+	 * aa properties ni java lo represent chaiyalantea variables rupam lo represent
 	   chestamu.
 	 */
 	

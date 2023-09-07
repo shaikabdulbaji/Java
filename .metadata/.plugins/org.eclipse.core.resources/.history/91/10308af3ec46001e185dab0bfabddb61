@@ -1,9 +1,0 @@
-package a44POJO_Class_Java_Bean_Class;
-
-public class cEmployee {
-	
-	private int id;
-	private String name;
-	private double salary;
-
-}
