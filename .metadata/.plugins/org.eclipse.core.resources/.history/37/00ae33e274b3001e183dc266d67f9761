@@ -1,0 +1,95 @@
+package a69Wrapper_classes;
+
+/*
+ * java is 100% object oriented programming language aa kada antea --> answer is "NO".
+   nduku antea manki e primitive data types yoka concept valla java 100% oop language kadu. 
+   adi ala antea
+   for ex : int i=20;
+   edi manaki class aa kadu, edi manaki object aa kadu, leka edi amana class ni extend chestunda kadu.
+   manki 100% oops antea prathidi 100% objects rupam lo undali.
+   
+   ala itea asalu e primitive data types anea concepts java lo nunchi tisestea manaki 100% oop 
+   language aavutadi kada java.
+   
+   manki data aneadi store aavali antea e primitive data types kavali evi tisestea manaki adana data 
+   store chaiyali antea prathi sari manam object aneadi create chaiyali ala prathi china data ki 
+   objects create chesthu veltea manki main ga performance undadu and memory consumption akuva 
+   aavutundi and garbage collector ki kuda work undi e object ni clear chaiyatniki edanta pedha 
+   process edi ami leakunda undataniki e primitive data types anea concept unchalsochindi java lo.
+   
+   e paindi antha asal process.
+   
+   manaki java collections anea framework ki apudu introduce cheasindo apudu e primitvie data types ni 
+   collections lo use chaiyaleamu ani rule petindi java.
+   manaki collections lo em untai antea multiple data structures untai. data structures antea 
+   "Arraylist, Linkedlist, map etc..  elantivi". 
+   e data structures ni nduku use cheasukuntamu manam antea data ni store cheasukotaniki in certain 
+   way lo. mari data ni ni data structures loki ala save cheasukuntamu antea, deni overcome chaiyatniki
+   and 100% oops denini justify chaiyataniki, vetinanitini ni drustilo petukoni java vaka kotha concept
+   ni introduce cheasindi dani perea "Wrapper Classes".
+   
+   e Wrapper classes enti antea e primitive data ni vaka class wrapp chestundi danea wrapper cllasses
+   antaru. (Simple ga manam evarikana gift evalantea direct ga evamu kadu dani ado vaka gift cover tho 
+   cover cheasi estamu adea wrapping).
+   
+   similar ga collections framework kosam objects kavali and collections framework lo e primitive data
+   types ni use cheasukokudadu, everthing should be in the form of objects, object la undali antea 
+   manki class kavali. manam e primitive data tye lo data ni hold cheasi daniki class tho wrapp cheasi
+   objects ki estamu.
+   
+   e wrapper class lo primitive data type ala untundi antea.
+   
+   byte --> Byte
+   short --> Short
+   int --> Integer
+   double --> Double
+   float --> Float
+   long --> Long
+   char --> Character
+   boolean --> Boolean
+   
+   mostly 99% class names aneavi ani "capital latters" tho start aavutai, akadea manaki ardam aavtundi.
+   
+   manam adana primitive data ni class no use cheasukovali antea object create chaiyali ala create 
+   chaiyali antea class kavali.
+   
+   denilo 2 types untai 
+   1. Boxing
+   2. Unboxing.
+   
+   int i=20;
+   Integer i2 = new Integer(i); 
+   System.out.println(i2);
+   Integer(i) --> edi deprecate iundi nduku antea java-9 tarvata edi deprecate cheasaru. deprecate 
+   antea java team vallu adana method ni remove chaiyali antea dani 1st deprecate chestaru nduku antea
+   dani direct ga remove chestea aa method use chesa project effect or fail aavutai anduku 1st a 
+   remove chaiyakunda deprecate chestaru.
+   ela deprecate ina methods ni mostly ignore chaiyatamea manchidi nduku antea java team vallu aa 
+   method ni apudaina remove chiyavachu anduku.
+   
+   
+   Boxing - int data ni Integer lo petamu deni wrapper classes antamu.
+   eg : 
+   int i=20;
+   Integer i2 = new Integer(i); 
+   System.out.println(i2);
+   
+   Auto-Boxing - int data ni direct ga assign chaiyatam.
+   
+ */
+
+public class sample {
+
+	public static void main(String[] args) {
+
+		int i=20;
+		
+		//Integer i2 = new Integer(i); //deni boxing antamu.
+		Integer i2 = Integer.valueOf(i);
+		System.out.println(i2;
+		
+		Integer i3 = i; //deni auto-boxing antamu.
+		System.out.println(i3);
+	}
+
+}
